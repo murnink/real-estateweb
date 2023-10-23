@@ -1,10 +1,11 @@
-node ('appserver-cweb') {
+node ('appserver-cweb') 
+{
   def app
-  stage ('Cloning Git') {
+  stage ('Cloning Git') 
+  {
     /* make sure the repository is cloned to workspace */
     checkout scm
-    }
-
+  }
     stage ('Build-and-Tag')
   {
     /* this builds the actual image;
