@@ -1,4 +1,4 @@
-node ('appserver-cweb') 
+node ('ubuntu-appserver-cweb') 
 {
   def app
   stage ('Cloning Git') 
